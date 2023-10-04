@@ -1,9 +1,9 @@
 name: CI
 
-on: [push, pull_request]
+on: []
 
 jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'placeholder workflow'
+      - run: echo 'this is a placeholder workflow'
